@@ -10,7 +10,7 @@ public class HierarchicalSort {
 
   public static void main(String[] args) {
 
-    Page root = new Page("root", 250, "");
+    Page root = new Page("root", 350, "");
     Page b = new Page("b", 250, root.getComparisonKey());
     Page b1 = new Page("b.1", 1, b.getComparisonKey());
     Page b3 = new Page("b.3", 99, b.getComparisonKey());
